@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        .center {
+            margin: auto;
+            width: 40%;
+            border: 3px solid #000000;
+            padding: 10px;
+        }
+        
+        .button4 {
+            background-color: tomato;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <h2>The result is:</h2>
+        <h1>{{ans}}</h1>
+        <button class="button4"><a href="{% url 'home' %}"><h3>Go Back</h3></a></button>
+
+
+    </div>
+
+</body>
+
+</html>
